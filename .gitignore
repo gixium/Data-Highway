@@ -1,6 +1,16 @@
 # Prerequisites
 *.d
 
+# macOS metadata
+.DS_Store
+
+# Compiled binary
+src/highway
+
+# Valgrind / Cachegrind profiling output
+cachegrind.out.*
+massif.out.*
+
 # Object files
 *.o
 *.ko
